@@ -13,7 +13,7 @@ set cpo&vim
 
 
 " type
-syn keyword enfType                     int float bool string vector void Class typename
+syn keyword enfType                     int float bool string vector void Class typename auto
 " storage
 syn keyword enfStorage                  class enum
 " repeat / condition / label
@@ -31,12 +31,7 @@ syn keyword enfConstant                 false null true
 " exception
 syn keyword enfExceptionError           try catch finally throw
 
-" TODO:
-syn keyword enfUnspecifiedStatement     as base checked event fixed in is lock new operator out params ref sizeof stackalloc this typeof unchecked unsafe using
-" TODO:
-syn keyword enfUnsupportedStatement     add remove value
-" TODO:
-syn keyword enfUnspecifiedKeyword       explicit implicit
+syn keyword enfStatement                new this
 
 
 " Comments
@@ -70,9 +65,7 @@ hi def link enfLabel                    Label
 hi def link enfModifier                 StorageClass
 hi def link enfConstant                 Constant
 hi def link enfExceptionError           Error
-hi def link enfUnspecifiedStatement     Statement
-hi def link enfUnsupportedStatement     Statement
-hi def link enfUnspecifiedKeyword       Keyword
+hi def link enfStatement                Statement
 hi def link enfOperatorError            Error
 
 hi def link enfTodo                     Todo
