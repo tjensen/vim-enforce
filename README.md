@@ -1,7 +1,7 @@
 # Vim Enforce Script Syntax
 
 This plugin provides basic syntax highlighting support for Enforce Script, the
-scripting language by Bohemia Interactive's
+scripting language used by Bohemia Interactive's
 [Enfusion engine](https://community.bistudio.com/wiki/Enfusion).
 
 The script syntax is documented at
