@@ -27,7 +27,7 @@ syn match   enfLabel                    display +^\s*\I\i*\s*:\([^:]\)\@=+
 " modifier
 syn keyword enfModifier                 private protected static override proto native autoptr ref const out inout modded
 " constant
-syn keyword enfConstant                 false null true
+syn keyword enfConstant                 false null NULL true
 " exception
 syn keyword enfExceptionError           try catch finally throw
 
