@@ -15,7 +15,7 @@ set cpo&vim
 " type
 syn keyword enfType                     int float bool string vector void Class typename auto
 " storage
-syn keyword enfStorage                  class enum
+syn keyword enfStorage                  class enum typedef
 " repeat / condition / label
 syn keyword enfRepeat                   break continue do for foreach goto return while
 syn keyword enfConditional              else if switch
