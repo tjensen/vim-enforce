@@ -25,7 +25,7 @@ syn match enfOperatorError              display +::+
 " user labels
 syn match   enfLabel                    display +^\s*\I\i*\s*:\([^:]\)\@=+
 " modifier
-syn keyword enfModifier                 private protected static override proto native autoptr ref const out inout modded
+syn keyword enfModifier                 private protected static override proto native autoptr ref const out inout modded event
 " constant
 syn keyword enfConstant                 false null NULL true
 " exception
