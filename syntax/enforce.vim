@@ -31,7 +31,7 @@ syn keyword enfConstant                 false null NULL true
 " exception
 syn keyword enfExceptionError           try catch finally throw
 
-syn keyword enfStatement                new this
+syn keyword enfStatement                new this super
 
 
 " Comments
